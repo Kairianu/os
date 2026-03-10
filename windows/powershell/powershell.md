@@ -1,4 +1,4 @@
 # Windows PowerShell
 
 ## Alias File Directory
-`%USERPROFILE%\Documents\WindowsPowerShell`
+`%USERPROFILE%\Documents\PowerShell`
