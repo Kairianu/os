@@ -1,53 +1,51 @@
 ## Drivers
+- #### ASUS
+	- [DriverHub](https://driverhub.asus.com)
+
 - #### Intel
-	- Bluetooth
-	- Integrated Graphics
-	- Intel Driver & Support Assistant (Intel DSA)
-	- Wi-Fi
+	- [Intel Driver & Support Assistant (Intel DSA)](https://www.intel.com/support/detect.html)
+		- Bluetooth
+		- Integrated Graphics
+		- Wi-Fi
 
 - #### Nvidia
-	- GPU
+	- [GPU](https://www.nvidia.com/drivers)
 
 
 ## Hardware Control
-- #### ASUS Armory Crate
+- #### [ASUS Armory Crate](https://rog.asus.com/armoury-crate/)
 	- Motherboard, RAM, Front LED Strip
-- #### Corsair iCUE
+- #### [Corsair iCUE](https://www.corsair.com/downloads)
 	- Corsair Fan/Lighting Control
-- #### EVGA Precision X1
+- #### [EVGA Precision X1](https://www.evga.com/precisionx1/)
 	- GPU Control
-- #### G. Skill Trident Z Lighting Control
+- #### [G. Skill Trident Z Lighting Control](https://www.gskill.com/downloads)
 	- RAM Lighting Control
-- #### HyperX NGENUITY
+- #### [HyperX NGENUITY](https://apps.microsoft.com/detail/9p1tbxr6qdcx)
 	- HyperX Microphone Light Control
-- #### NZXT CAM
+- #### [NZXT CAM](https://nzxt.com/pages/cam)
 	- CPU AIO Cooler
-- #### Razer Synapse
+- #### [Razer Synapse](https://www.razer.com/synapse-4)
 	- Keyboard & Mouse
-- #### Samsung Magician
+- #### [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/magician/)
 	- SSD
 - #### Sonic Studio
+	- Downloaded with ASUS audio drivers from ASUS DriverHub.
 	- Motherboard HDMI Audio Control
 
 
 ## Software
-- #### BLPConverter
+- #### [BLPConverter](https://www.wowinterface.com/downloads/info14110-BLPConverter.html)
 	- World of Warcraft BLP Image Converter
-	- https://www.wowinterface.com/downloads/info14110-BLPConverter.html
-- #### BLPView
+- #### [BLPView](https://www.wowinterface.com/downloads/info16700-BLPView.html)
 	- World of Warcraft BLP Image Thumbnails for Windows Explorer
-	- https://www.wowinterface.com/downloads/info16700-BLPView.html
-- #### Custom Resolution Utility
+- #### [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 	- Create Custom Screen Resolutions & Edit Monitor Profiles
-	- https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
-- #### PowerToys
+- #### [PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld)
 	- Extra Windows Functions
-- #### Simple Runtime Window Editor
+- #### [Simple Runtime Window Editor](https://github.com/dtgDTGdtg/SRWE)
 	- Moves & Resizes Windows
-	- https://github.com/dtgDTGdtg/SRWE
-- #### Virtual Display Driver
+- #### [Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver)
 	- Used for AnyDesk
-	- https://github.com/VirtualDrivers/Virtual-Display-Driver
-- #### YT-DLP
+- #### [YT-DLP](https://github.com/yt-dlp/yt-dlp)
 	- YouTube Downloader
-	- https://github.com/yt-dlp/yt-dlp
