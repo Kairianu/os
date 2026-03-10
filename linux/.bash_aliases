@@ -1,21 +1,45 @@
-bind "set bell-style none"
+## Bindings ##
 
-bind ""\C-i": menu-complete"
+bind 'set bell-style none'
+
+bind '"\C-i": menu-complete'
 
 
-alias c="clear"
-alias e="exit"
-alias l="ls -A"
 
-alias bw="sudo rfkill block all"
+## Aliases ##
 
-alias ch="rm --force ~/.bash_history; history -c"
-alias che="ch && exit"
+# Font Aliases
+alias font-bold='setfont Uni3-TerminusBold28x14'
 
-alias fb="setfont Uni3-TerminusBold28x14"
 
-alias generate-certificate="openssl req -x509 -days 365 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -nodes -keyout certificate-key.pem -out certificate.pem"
+# Git Aliases
+alias gs='git status'
 
-alias u="(set -x; sudo apt update) && printf '\n'; (set -x; sudo apt full-upgrade --auto-remove --purge)"
 
-alias up="ps -u "$(id -u)""
+# History Aliases
+alias ch='rm --force "$HOME/.bash_history"; history -c'
+alias che='ch && exit'
+
+
+# Host Aliases
+alias c='clear'
+alias e='exit'
+alias l='ls -a'
+
+
+# OpenSSL Aliases
+alias generate-certificate='openssl req -x509 -out "./certificate.pem" -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -nodes -keyout "./certificate-key.pem"'
+
+
+# System Aliases
+alias apt-upgrade='(set -x; sudo apt update) && printf '\n'; (set -x; sudo apt full-upgrade --auto-remove --purge)'
+
+alias u='apt-upgrade'
+
+
+# User Aliases
+alias up='ps --user "$(id --user)"'
+
+
+# Wireless Radio Aliases
+alias block-radios='sudo rfkill block all'
